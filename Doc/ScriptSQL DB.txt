@@ -1,0 +1,30 @@
+CREATE TABLE users(
+    id int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    first varchar(256) NOT NULL,
+    last varchar(256) NOT NULL,
+    email varchar (256) NOT NULL,
+    phone varchar (12) NOT NULL,
+    adress1 varchar (256) NOT NULL,
+    adress2 varchar (256) NOT NULL,
+    postal varchar (6) NOT NULL,
+    city varchar (256) NOT NULL
+);
+
+
+CREATE TABLE commands(
+    id int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    first varchar(256) NOT NULL,
+    last varchar(256) NOT NULL,
+    item_name varchar (256) NOT NULL,
+    item_quantity int (2) NOT NULL,
+    product_price decimal NOT NULL,
+    total decimal NOT NULL,
+);
+
+CREATE TABLE product(
+    prdid int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    prdname varchar(256) NOT NULL,
+    prddesc text NOT NULL,
+    image varchar(256) NOT NULL,
+    prdprice decimal
+);

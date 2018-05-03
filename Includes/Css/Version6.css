@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	text-align: center;
+	background: #F2F2F2;
+	border: none
+}
+
+table{
+
+width: 70%;
+height: 100vh;
+margin-left: 15%;
+margin-right: 15%;
+border: none
+
+}
+
+@media only screen and (max-width: 1000px){
+table{
+
+width: 60%;
+height: 100vh;
+margin-left: 20%;
+margin-right: 20%;
+border: none
+
+}
+}
+
+table td{
+  word-wrap:break-word;
+  border:none;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1; }
+
+@media only screen and (max-width: 1000px){
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1; }
+}
+.container{
+  display: flex;
+  border:none;
+}
+
+#firstPART{
+	height: 100vh;
+	background: url(../Img/black_and_white_sea_waves_royalty_free_images-1087942.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px
+}
+
+@media only screen and (max-width: 1000px){
+#firstPART{
+	height: 100vh;
+	background: url(../Img/black_and_white_sea_waves_royalty_free_images-1087942.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10px;
+}
+}
+#secondPART{
+	height: 100vh;
+  background: #262526;
+	background: url(../Img/B-W-Minimalist-Crystal-ball-reflecting-striped-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+}
+@media only screen and (max-width: 1000px){
+#secondPART{
+	height: 100vh;
+  background: #262526;
+	background: url(../Img/B-W-Minimalist-Crystal-ball-reflecting-striped-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10px;
+}
+}
+#thirdPART{
+	height: 100vh;
+  background: #F2F2F2;
+  padding: 50px;
+}
+@media only screen and (max-width: 1300px){
+#thirdPART{
+display: none;
+}
+}
+
+#forthPART{
+	height: 100vh;
+  background:#F2F2F2;
+	padding: 50px
+}
+@media only screen and (max-width: 1300px){
+#forthPART{
+display: none;
+}
+}
+
+
+@media only screen and (max-width: 1000px){
+	#logo{
+		width: 100px;
+		height: 100px;
+	    background-image: url(../Img/Logo.png);
+	    background-position: center;
+	    background-repeat: no-repeat;
+
+	}
+}
+#logo{
+	width: 400px;
+	height: 400px;
+    background-image: url(../Img/Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#intro{
+	text-align: center;
+	height: 100%;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;
+	color: #1D2326;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+@media only screen and (max-width: 1500px){
+#intro{
+	text-align: center;
+	height: 100%;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #1D2326;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+}
+@media only screen and (max-width: 1000px){
+#intro{
+	text-align: center;
+	height: 100%;
+	font-size:10px;
+	font-family: 'Montserrat', sans-serif;
+	color: #1D2326;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+}
+#element1 {
+	border: solid 2px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	height: 60px
+}
+@media only screen and (max-width: 1000px){
+#element1 {
+	display: none;
+}
+}
+#element2 {
+	border: solid 2px;
+	height: 60px
+}
+@media only screen and (max-width: 1000px){
+#element2 {
+	display: none;
+}
+}
+#element3 {
+	border: solid 2px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	height: 60px
+}
+@media only screen and (max-width: 1000px){
+#element3 {
+	display: none;
+}
+}
+#elements {
+	width: 200px;
+}
+@media only screen and (max-width: 1000px){
+#elements {
+display: none;
+}
+}
+
+#headerSection2 {
+	text-align: center;
+	font-size: 40px;
+	padding-top:200px;
+	font-family: 'Raleway', sans-serif;
+	color:whitesmoke;
+}
+@media only screen and (max-width: 1000px){
+#headerSection2 {
+	text-align: center;
+	font-size: 18px;
+	padding-top:10vh;
+	font-family: 'Raleway', sans-serif;
+	color:whitesmoke;
+}
+}
+
+.pSection2 {
+	background: #F4F0F0;
+  opacity: 0.9;
+  font-family: 'Montserrat', sans-serif;
+	padding: 70px;
+  height: 350px;
+	color:rgba(25,25,25,1.00);
+	border-radius: 300px;
+	font-size:20px;
+}
+@media only screen and (max-width: 1500px){
+.pSection2 {
+	background: #F4F0F0;
+  opacity: 0.9;
+  font-family: 'Montserrat', sans-serif;
+	padding: 35px;
+  height: 30vh;
+	color:rgba(25,25,25,1.00);
+	border-radius: 300px;
+	font-size:1.2vh;
+}
+}
+@media only screen and (max-width: 1000px){
+.pSection2 {
+	background: #F4F0F0;
+  opacity: 0.9;
+  font-family: 'Montserrat', sans-serif;
+	padding: 35px;
+  height: 30vh;
+	color:rgba(25,25,25,1.00);
+	border-radius: 300px;
+	font-size:1vh;
+}
+}
+
+.descriptionPLeft {
+	padding:35px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+}
+@media only screen and (max-width: 1600px){
+.descriptionPLeft {
+	padding:20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+}
+}
+
+.descriptionPRight {
+	padding:35px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+}
+@media only screen and (max-width: 1600px){
+.descriptionPRight {
+	padding:20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+}
+}
+.photoLeft {
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	display: block;
+	background-position: bottom;
+}
+.photoRight {
+	background-size: contain;
+	background-repeat: no-repeat;
+	height:100%;
+	width: 100%;
+	display: block;
+	background-position: bottom;
+
+}
+
+#footer {
+	height: 5vh;
+	background-color:silver;
+	color: ghostwhite;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+#spacesection2 {
+	height: 30vh
+}
+
+#lastsectiontext {
+    color:rgba(112,112,112,1.00);
+	padding-top:60px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#lastsectiontext2 {
+    color:rgba(112,112,112,1.00);
+	padding-top:60px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#arrow-down {
+	background: url(down-arrow.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+nav {
+	position: fixed;
+	background:rgba(0,0,0,0.20);
+	text-align: center;
+	height: 30px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	color: lightslategrey;
+
+}
+@media only screen and (max-width: 1500px){
+nav {
+	position: fixed;
+	background:rgba(0,0,0,0.20);
+	text-align: center;
+	height: 20px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	color: lightslategrey;
+}
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+@media only screen and (max-width: 1500px){
+a {
+    color: whitesmoke;
+    text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+}
+
+a:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+#img1 {
+	background: url(../Img/image-2.jpg)
+}
+#img2 {
+	background: url(../Img/iceland-minimalism-2.jpg)
+}
+#img3 {
+	background: url(../Img/../Img/Niagara-Falls-Travel-Photography-3.jpg)
+}
+#img4 {
+	background: url(../Img/Minimalism-Study-II.jpg)
+}
+
+@viewport {
+    zoom: 0.67;
+    max-zoom: 0.67;
+    user-zoom: fixed;
+}

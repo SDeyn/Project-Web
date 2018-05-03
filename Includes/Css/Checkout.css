@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width: 100%;
+	margin:0;
+	text-align: center;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #1D2326;
+	padding: 0;
+	  text-decoration: none;
+}
+
+table{
+  width:500px;
+  height: 60%;
+  border: none
+}
+
+
+#Checkout{
+	height: 100vh;
+	width: 100%;
+	background: url(../img/Photo4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+  #logo{
+    padding-top: 5vh;
+  	width: 400px;
+  	height: 400px;
+    background-image: url(../img/Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+nav {
+	position: fixed;
+	background:rgba(0,0,0,0.20);
+	text-align: center;
+	height: 30px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	color: lightslategrey;
+
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a:hover{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+.container{
+  background-color: whitesmoke;
+  height: 60vh;
+  width: 100%;
+  opacity: 0.8;
+  height: auto;
+  margin-top: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+
+}
+
+input{
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	opacity: 0.8;
+	padding: 15px;
+
+}
+
+th{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  padding: 50px;
+  color: black;
+}
+
+td button{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  border-radius: 50px;
+  margin: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
